@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(~@/assets/fonts/segoeui.ttf)format('font-truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'Segoe MDL2 Assets';
+src: local('Segoe MDL2 Assets') url(~@/assets/fonts/segmdl2.ttf)format('truetype'),
+                                url(~@/assets/fonts/segmdl2.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+}
+[class*='icon-']:before{
+    font-family: 'Segoe MDL2 Assets';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.icon-user:before{content:'\E77B';}
+.icon-colletor:before{content:'\E726'}
+.icon-colletor:before{content:'\E7C8'}
+.icon-source:before{content:'\E774'}
+.icon-back:before{content:'\E760'}
+.icon-back:before{content:'\E7EA'}
+.icon-search:before{content:'\E721'}
+.icon-unselected:before{content:'\F138'}
+.icon-selected:before{content:'\F137'}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
